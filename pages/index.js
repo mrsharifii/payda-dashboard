@@ -41,7 +41,7 @@ export default function Dashboard() {
     const [value, changeValue] = useState(1)
     const [ccNumber, setCcNumber] = useState("");
 
-  const formatAndSetCcNumber = e => {
+  const formatAndSetCcNumber = (e) => {
     const inputVal = e.target.value.replace(/ /g, "");
     let inputNumbersOnly = inputVal.replace(/\D/g, "");
 
