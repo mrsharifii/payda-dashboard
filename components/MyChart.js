@@ -40,7 +40,7 @@ const options = {
             grid: {
                 borderDash: [3, 3],
             },
-            // beginAtZero: true, // this works
+            // beginAtZero: true, // this works and there is no need to change
         },
     },
     plugins: {
